@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>testimonial</title>
+</head>
+<body>
+<div class="cols">
+    <div class="black-and-white">
+    <div class="white-col">
+        <div class="content">
+            <div class="logo-brand">
+                <div class="circle"></div>
+                <span>brand</span>
+            </div>
+            <div class="person-info">
+                <span>Gabe</span>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, eius facere id
+                    molestias qui quo
+                    vero? Accusamus blanditiis, consequatur corporis debitis eaque laudantium molestiae natus, optio
+                    provident, sint veritatis voluptas?</p>
+            </div>
+            <div class="footer-els">
+                <div class="group">
+                    <div class="circle2"></div>
+                    <div class="searchIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                             stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  d="M15.75 15.75l-2.489-2.489m0 0a3.375 3.375 0 10-4.773-4.773 3.375 3.375 0 004.774 4.774zM21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                </div>
+                <button class="next">Next</button>
+            </div>
+        </div>
+    </div>
+    <div class="black-col">
+        <div class="img-container">
+            <img src="assets/images/portrait.jpg" alt="img">
+        </div>
+    </div>
+    </div>
+    <div class="red-col">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="links">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                             stroke="currentColor" class="w-6 h-6 bar">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5"/>
+                        </svg>
+                        <span class="link">Models</span>
+                        <span class="link">Gallery</span>
+                        <span class="link">Shop</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="links">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                             stroke="currentColor" class="w-6 h-6 bar">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5"/>
+                        </svg>
+                        <span class="link">Models</span>
+                        <span class="link">Gallery</span>
+                        <span class="link">Shop</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="links">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                             stroke="currentColor" class="w-6 h-6 bar">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5"/>
+                        </svg>
+                        <span class="link">Models</span>
+                        <span class="link">Gallery</span>
+                        <span class="link">Shop</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+</body>
+</html>
